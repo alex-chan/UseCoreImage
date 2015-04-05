@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB244E901ACE738800DA504C /* czz.MOV in Resources */ = {isa = PBXBuildFile; fileRef = CB244E8F1ACE738800DA504C /* czz.MOV */; };
+		CB2857611ACBEEB8003A2D43 /* SunsetMovieWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2857601ACBEEB8003A2D43 /* SunsetMovieWriter.swift */; };
+		CB2857651ACBF578003A2D43 /* SunetPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2857641ACBF578003A2D43 /* SunetPlayerViewController.swift */; };
+		CB2857671ACC1450003A2D43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2857661ACC1450003A2D43 /* UIKit.framework */; };
+		CB2857691ACC1493003A2D43 /* SunsetPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB2857681ACC1493003A2D43 /* SunsetPlayerView.xib */; };
+		CB3A90F71ACB8D3E00B20613 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A90F61ACB8D3E00B20613 /* AppDelegate.swift */; };
+		CB3A90FA1ACB8D3E00B20613 /* UsetCoreImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB3A90F81ACB8D3E00B20613 /* UsetCoreImage.xcdatamodeld */; };
+		CB3A90FC1ACB8D3E00B20613 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A90FB1ACB8D3E00B20613 /* ViewController.swift */; };
+		CB3A90FF1ACB8D3E00B20613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB3A90FD1ACB8D3E00B20613 /* Main.storyboard */; };
+		CB3A91011ACB8D3E00B20613 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB3A91001ACB8D3E00B20613 /* Images.xcassets */; };
+		CB3A91041ACB8D3E00B20613 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3A91021ACB8D3E00B20613 /* LaunchScreen.xib */; };
+		CB3A91101ACB8D3E00B20613 /* UsetCoreImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A910F1ACB8D3E00B20613 /* UsetCoreImageTests.swift */; };
+		CB3A911E1ACB8E7E00B20613 /* SunsetMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A911D1ACB8E7E00B20613 /* SunsetMovie.swift */; };
+		CB3A91201ACB8E8E00B20613 /* SunsetOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A911F1ACB8E8E00B20613 /* SunsetOutput.swift */; };
+		CB3A91231ACB9C0B00B20613 /* SunsetInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A91221ACB9C0B00B20613 /* SunsetInputDelegate.swift */; };
+		CB3A91271ACB9E6100B20613 /* SunsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A91261ACB9E6100B20613 /* SunsetView.swift */; };
+		CB3A912C1ACBD19B00B20613 /* SunsetFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A912B1ACBD19B00B20613 /* SunsetFilter.swift */; };
+		CB3A912E1ACBD5C000B20613 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3A912D1ACBD5C000B20613 /* CoreImage.framework */; };
+		CB7DE25C1ACD2D340082161B /* SunsetUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7DE25B1ACD2D340082161B /* SunsetUtils.swift */; };
+		CB7DE25F1ACD441F0082161B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7DE25E1ACD441F0082161B /* AssetsLibrary.framework */; };
+		CBA7A8981ACF8F6A0009A727 /* AudioTapProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7A8971ACF8F6A0009A727 /* AudioTapProcessor.swift */; };
+		CBA7A89B1ACF9E600009A727 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA7A89A1ACF9E600009A727 /* MediaToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB3A910A1ACB8D3E00B20613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB3A90E91ACB8D3E00B20613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3A90F01ACB8D3E00B20613;
+			remoteInfo = UsetCoreImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB244E8F1ACE738800DA504C /* czz.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = czz.MOV; sourceTree = "<group>"; };
+		CB2857601ACBEEB8003A2D43 /* SunsetMovieWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetMovieWriter.swift; sourceTree = "<group>"; };
+		CB2857641ACBF578003A2D43 /* SunetPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunetPlayerViewController.swift; sourceTree = "<group>"; };
+		CB2857661ACC1450003A2D43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB2857681ACC1493003A2D43 /* SunsetPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SunsetPlayerView.xib; sourceTree = "<group>"; };
+		CB3A90F11ACB8D3E00B20613 /* UsetCoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsetCoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3A90F51ACB8D3E00B20613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3A90F61ACB8D3E00B20613 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB3A90F91ACB8D3E00B20613 /* UsetCoreImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UsetCoreImage.xcdatamodel; sourceTree = "<group>"; };
+		CB3A90FB1ACB8D3E00B20613 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB3A90FE1ACB8D3E00B20613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB3A91001ACB8D3E00B20613 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB3A91031ACB8D3E00B20613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB3A91091ACB8D3E00B20613 /* UsetCoreImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsetCoreImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3A910E1ACB8D3E00B20613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3A910F1ACB8D3E00B20613 /* UsetCoreImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsetCoreImageTests.swift; sourceTree = "<group>"; };
+		CB3A911D1ACB8E7E00B20613 /* SunsetMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetMovie.swift; sourceTree = "<group>"; };
+		CB3A911F1ACB8E8E00B20613 /* SunsetOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetOutput.swift; sourceTree = "<group>"; };
+		CB3A91211ACB950D00B20613 /* SunsetPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SunsetPlayground.playground; sourceTree = "<group>"; };
+		CB3A91221ACB9C0B00B20613 /* SunsetInputDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SunsetInputDelegate.swift; path = Sources/SunsetInputDelegate.swift; sourceTree = "<group>"; };
+		CB3A91261ACB9E6100B20613 /* SunsetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetView.swift; sourceTree = "<group>"; };
+		CB3A912B1ACBD19B00B20613 /* SunsetFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetFilter.swift; sourceTree = "<group>"; };
+		CB3A912D1ACBD5C000B20613 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CB7DE25B1ACD2D340082161B /* SunsetUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunsetUtils.swift; sourceTree = "<group>"; };
+		CB7DE25E1ACD441F0082161B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CBA7A8971ACF8F6A0009A727 /* AudioTapProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTapProcessor.swift; sourceTree = "<group>"; };
+		CBA7A89A1ACF9E600009A727 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3A90EE1ACB8D3E00B20613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA7A89B1ACF9E600009A727 /* MediaToolbox.framework in Frameworks */,
+				CB7DE25F1ACD441F0082161B /* AssetsLibrary.framework in Frameworks */,
+				CB2857671ACC1450003A2D43 /* UIKit.framework in Frameworks */,
+				CB3A912E1ACBD5C000B20613 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A91061ACB8D3E00B20613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB3A90E81ACB8D3E00B20613 = {
+			isa = PBXGroup;
+			children = (
+				CBA7A89A1ACF9E600009A727 /* MediaToolbox.framework */,
+				CB7DE25E1ACD441F0082161B /* AssetsLibrary.framework */,
+				CB2857661ACC1450003A2D43 /* UIKit.framework */,
+				CB3A912D1ACBD5C000B20613 /* CoreImage.framework */,
+				CB3A90F31ACB8D3E00B20613 /* UsetCoreImage */,
+				CB3A910C1ACB8D3E00B20613 /* UsetCoreImageTests */,
+				CB3A90F21ACB8D3E00B20613 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB3A90F21ACB8D3E00B20613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A90F11ACB8D3E00B20613 /* UsetCoreImage.app */,
+				CB3A91091ACB8D3E00B20613 /* UsetCoreImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3A90F31ACB8D3E00B20613 /* UsetCoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				CB244E8F1ACE738800DA504C /* czz.MOV */,
+				CB3A911B1ACB8E1E00B20613 /* SunsetCImage */,
+				CB3A91241ACB9DD700B20613 /* New Group */,
+				CB3A90F61ACB8D3E00B20613 /* AppDelegate.swift */,
+				CB3A90FB1ACB8D3E00B20613 /* ViewController.swift */,
+				CB3A90FD1ACB8D3E00B20613 /* Main.storyboard */,
+				CB3A91001ACB8D3E00B20613 /* Images.xcassets */,
+				CB3A91021ACB8D3E00B20613 /* LaunchScreen.xib */,
+				CB3A90F81ACB8D3E00B20613 /* UsetCoreImage.xcdatamodeld */,
+				CB3A90F41ACB8D3E00B20613 /* Supporting Files */,
+				CB3A91211ACB950D00B20613 /* SunsetPlayground.playground */,
+			);
+			path = UsetCoreImage;
+			sourceTree = "<group>";
+		};
+		CB3A90F41ACB8D3E00B20613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A90F51ACB8D3E00B20613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB3A910C1ACB8D3E00B20613 /* UsetCoreImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A910F1ACB8D3E00B20613 /* UsetCoreImageTests.swift */,
+				CB3A910D1ACB8D3E00B20613 /* Supporting Files */,
+			);
+			path = UsetCoreImageTests;
+			sourceTree = "<group>";
+		};
+		CB3A910D1ACB8D3E00B20613 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A910E1ACB8D3E00B20613 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB3A911B1ACB8E1E00B20613 /* SunsetCImage */ = {
+			isa = PBXGroup;
+			children = (
+				CB7DE25B1ACD2D340082161B /* SunsetUtils.swift */,
+				CB3A91221ACB9C0B00B20613 /* SunsetInputDelegate.swift */,
+				CB3A912A1ACBD07D00B20613 /* Filters */,
+				CB3A91251ACB9E0B00B20613 /* Output */,
+				CB3A911C1ACB8E2E00B20613 /* Sources */,
+				CB2857641ACBF578003A2D43 /* SunetPlayerViewController.swift */,
+				CB2857681ACC1493003A2D43 /* SunsetPlayerView.xib */,
+			);
+			path = SunsetCImage;
+			sourceTree = "<group>";
+		};
+		CB3A911C1ACB8E2E00B20613 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7A8991ACF8F770009A727 /* AudioTapProcessor */,
+				CB3A911F1ACB8E8E00B20613 /* SunsetOutput.swift */,
+				CB3A911D1ACB8E7E00B20613 /* SunsetMovie.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CB3A91241ACB9DD700B20613 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		CB3A91251ACB9E0B00B20613 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A91261ACB9E6100B20613 /* SunsetView.swift */,
+				CB2857601ACBEEB8003A2D43 /* SunsetMovieWriter.swift */,
+			);
+			name = Output;
+			path = UsetCoreImage/SunsetCImage/Output;
+			sourceTree = SOURCE_ROOT;
+		};
+		CB3A912A1ACBD07D00B20613 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A912B1ACBD19B00B20613 /* SunsetFilter.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		CBA7A8991ACF8F770009A727 /* AudioTapProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				CBA7A8971ACF8F6A0009A727 /* AudioTapProcessor.swift */,
+			);
+			path = AudioTapProcessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB3A90F01ACB8D3E00B20613 /* UsetCoreImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3A91131ACB8D3E00B20613 /* Build configuration list for PBXNativeTarget "UsetCoreImage" */;
+			buildPhases = (
+				CB3A90ED1ACB8D3E00B20613 /* Sources */,
+				CB3A90EE1ACB8D3E00B20613 /* Frameworks */,
+				CB3A90EF1ACB8D3E00B20613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsetCoreImage;
+			productName = UsetCoreImage;
+			productReference = CB3A90F11ACB8D3E00B20613 /* UsetCoreImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB3A91081ACB8D3E00B20613 /* UsetCoreImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3A91161ACB8D3E00B20613 /* Build configuration list for PBXNativeTarget "UsetCoreImageTests" */;
+			buildPhases = (
+				CB3A91051ACB8D3E00B20613 /* Sources */,
+				CB3A91061ACB8D3E00B20613 /* Frameworks */,
+				CB3A91071ACB8D3E00B20613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3A910B1ACB8D3E00B20613 /* PBXTargetDependency */,
+			);
+			name = UsetCoreImageTests;
+			productName = UsetCoreImageTests;
+			productReference = CB3A91091ACB8D3E00B20613 /* UsetCoreImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB3A90E91ACB8D3E00B20613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Alex Chan";
+				TargetAttributes = {
+					CB3A90F01ACB8D3E00B20613 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CB3A91081ACB8D3E00B20613 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CB3A90F01ACB8D3E00B20613;
+					};
+				};
+			};
+			buildConfigurationList = CB3A90EC1ACB8D3E00B20613 /* Build configuration list for PBXProject "UsetCoreImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB3A90E81ACB8D3E00B20613;
+			productRefGroup = CB3A90F21ACB8D3E00B20613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3A90F01ACB8D3E00B20613 /* UsetCoreImage */,
+				CB3A91081ACB8D3E00B20613 /* UsetCoreImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB3A90EF1ACB8D3E00B20613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A90FF1ACB8D3E00B20613 /* Main.storyboard in Resources */,
+				CB244E901ACE738800DA504C /* czz.MOV in Resources */,
+				CB3A91041ACB8D3E00B20613 /* LaunchScreen.xib in Resources */,
+				CB2857691ACC1493003A2D43 /* SunsetPlayerView.xib in Resources */,
+				CB3A91011ACB8D3E00B20613 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A91071ACB8D3E00B20613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB3A90ED1ACB8D3E00B20613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A90FC1ACB8D3E00B20613 /* ViewController.swift in Sources */,
+				CBA7A8981ACF8F6A0009A727 /* AudioTapProcessor.swift in Sources */,
+				CB3A90F71ACB8D3E00B20613 /* AppDelegate.swift in Sources */,
+				CB3A91271ACB9E6100B20613 /* SunsetView.swift in Sources */,
+				CB3A91201ACB8E8E00B20613 /* SunsetOutput.swift in Sources */,
+				CB3A911E1ACB8E7E00B20613 /* SunsetMovie.swift in Sources */,
+				CB3A912C1ACBD19B00B20613 /* SunsetFilter.swift in Sources */,
+				CB3A91231ACB9C0B00B20613 /* SunsetInputDelegate.swift in Sources */,
+				CB7DE25C1ACD2D340082161B /* SunsetUtils.swift in Sources */,
+				CB2857651ACBF578003A2D43 /* SunetPlayerViewController.swift in Sources */,
+				CB2857611ACBEEB8003A2D43 /* SunsetMovieWriter.swift in Sources */,
+				CB3A90FA1ACB8D3E00B20613 /* UsetCoreImage.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A91051ACB8D3E00B20613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3A91101ACB8D3E00B20613 /* UsetCoreImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3A910B1ACB8D3E00B20613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB3A90F01ACB8D3E00B20613 /* UsetCoreImage */;
+			targetProxy = CB3A910A1ACB8D3E00B20613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB3A90FD1ACB8D3E00B20613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3A90FE1ACB8D3E00B20613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB3A91021ACB8D3E00B20613 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB3A91031ACB8D3E00B20613 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB3A91111ACB8D3E00B20613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB3A91121ACB8D3E00B20613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB3A91141ACB8D3E00B20613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zongze Chen (EZ3726BMXP)";
+				INFOPLIST_FILE = UsetCoreImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB3A91151ACB8D3E00B20613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zongze Chen (EZ3726BMXP)";
+				INFOPLIST_FILE = UsetCoreImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB3A91171ACB8D3E00B20613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsetCoreImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsetCoreImage.app/UsetCoreImage";
+			};
+			name = Debug;
+		};
+		CB3A91181ACB8D3E00B20613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UsetCoreImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsetCoreImage.app/UsetCoreImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB3A90EC1ACB8D3E00B20613 /* Build configuration list for PBXProject "UsetCoreImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3A91111ACB8D3E00B20613 /* Debug */,
+				CB3A91121ACB8D3E00B20613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3A91131ACB8D3E00B20613 /* Build configuration list for PBXNativeTarget "UsetCoreImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3A91141ACB8D3E00B20613 /* Debug */,
+				CB3A91151ACB8D3E00B20613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB3A91161ACB8D3E00B20613 /* Build configuration list for PBXNativeTarget "UsetCoreImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB3A91171ACB8D3E00B20613 /* Debug */,
+				CB3A91181ACB8D3E00B20613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB3A90F81ACB8D3E00B20613 /* UsetCoreImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB3A90F91ACB8D3E00B20613 /* UsetCoreImage.xcdatamodel */,
+			);
+			currentVersion = CB3A90F91ACB8D3E00B20613 /* UsetCoreImage.xcdatamodel */;
+			path = UsetCoreImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB3A90E91ACB8D3E00B20613 /* Project object */;
+}
